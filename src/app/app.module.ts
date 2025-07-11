@@ -6,7 +6,7 @@ import { ConceitosAutomaticoModule } from 'src/conceitos-automatico/conceitos-au
 
 @Module({
   imports: [ConceitosManualModule, ConceitosAutomaticoModule],
-  controllers: [AppController],
+  controllers: [AppController], 
   providers: [AppService],
 })
 export class AppModule {}
