@@ -1,0 +1,19 @@
+@baseUrl = http://localhost:3000
+
+###
+# @name AppControllerGetHello
+
+GET {{baseUrl}}/teste/hello
+
+### 
+# @name AppControllerGetGoodbye
+
+GET {{baseUrl}}/teste/goodbye
+
+### 
+# @name ConceitosManualControllerGetHome
+GET {{baseUrl}}/conceitos-manual
+
+### 
+# @name ConceitosautomaticoControllerGetHome
+GET {{baseUrl}}/conceitos-automatico
