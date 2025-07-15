@@ -1,3 +1,7 @@
 import { Module } from '@nestjs/common';
-@Module({})
+import { ConceitosManualController } from './conceitos-manual.controller';
+
+@Module({
+  controllers: [ConceitosManualController],
+})
 export class ConceitosManualModule {}
